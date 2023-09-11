@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        body{
+            align-content: center;
+            text-align: center;
+        }
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;           
+            margin-left: 350px;
+        }
+        td:nth-child(even),.text{
+            width:500px;
+            text-align: left;
+        }
+        td:nth-child(odd){
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" class="text"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" class="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" class="text"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" class="text"></td>
+        </tr>
+        <tr>
+            <td>Re-enter Password</td>
+            <td><input type="password" class="text"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Gender:</td>
+            <td><input type="radio">Male</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; font-weight:normal;"><input type="radio">Female</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" class="text"></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="text" class="text"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="" id="" cols="66" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><Select>
+                <option value="" selected>Choose your country</option>
+            </Select></td>
+        </tr>
+        <tr>
+            <td>Languages known</td>
+            <td><input type="checkbox">English <input type="checkbox">Kannada <input type="checkbox"> Hindi <input type="checkbox">Telugu
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left; font-weight:normal;"><input type="checkbox" checked> Hereby I declare all the details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right; font-weight:normal">Login in to <a href="">Ethnus</a> website</td>
+        </tr>
+    </table><br />
+    <button>Register</button>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            text-align: center;
+            width: 500px;
+        }
+        .sub2{
+            display: inline-block;
+            border: 1px solid black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            
+        }
+        .h{
+            background-color: rgb(180, 182, 194);
+            border-right: 1px solid blue;
+            height: 45px;
+            color:blue;
+            font-size: 20px;
+          
+        }
+        .H{
+            background-color: rgb(36, 73, 236);
+            
+        }
+        .v{
+            background-color: rgb(151, 238, 250);
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 15px;
+            font-size: 25px;
+            height: 45px;
+            width: 250px;
+            vertical-align: center;
+            color: blue;
+        }
+        .sub1{
+            border: 1px solid black;
+            padding: 10px 10px 0px 10px;
+            display: inline-block;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        p{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><p>Vertical Navigation Bar</p></td>
+            <td><p>Horizontal Navigation Bar</p></td>        
+        </tr>
+        <tr>
+            <td>
+                <div class="sub1">
+                    <div class="v" style="background-color: orange;color:white;">Home</div>
+                    <div class="v">Java</div>
+                    <div class="v">CSS</div>
+                    <div class="v">HTML</div>
+                    <div class="v">Bootstrap</div>
+                </div>
+            </td>
+            <td>
+                <div class="sub2">
+                <table>
+                    <tr class="H">
+   
+                        <td class="h" style="color: white;background-color:gray">Home</td>
+                        <td class="h">Java</td>
+                        <td class="h">HTML</td>
+                        <td class="h">CSS</td>
+                        <td class="h" style="width: 1000px;"></td>
+                       
+                    </tr>
+                </table>
+                 </div>
+            </td>
+        </tr>
+    </table> 
+</body>
+</html>
